@@ -1,4 +1,21 @@
+import { useEffect } from "react"
 function Contact() {
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "https://platform.linkedin.com/badges/js/profile.js"
+    script.type = "text/javascript"
+    // script.async = "defer"
+    // script.defer 
+
+    document.body.appendChild(script);
+
+    // Clean up by removing the script when the component is unmounted
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, [])
+
   return (
     <>
 
