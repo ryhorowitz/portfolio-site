@@ -1,23 +1,17 @@
+import { Routes, Route } from "react-router-dom"
+import Home from "./Home"
+import Contact from "./Contact"
 function ContentContainer() {
 
   return (
     <>
       <div class="col py-3">
         Content area...
+        <Routes>
+          <Route path="" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
 
-        <p>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Link with href
-          </a>
-          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            Button with data-bs-target
-          </button>
-        </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-          </div>
-        </div>
 
       </div>
     </>
