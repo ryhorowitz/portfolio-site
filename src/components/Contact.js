@@ -1,6 +1,7 @@
 function Contact() {
   return (
     <>
+
       <h1>Contact </h1>
       <br></br>
       <ul className="list-unstyled list-group">
