@@ -5,14 +5,11 @@ function ContentContainer() {
 
   return (
     <>
-      <div class="col py-3">
-        Content area...
+      <div className="col p-5 bg-secondary bg-gradient">
         <Routes>
           <Route path="" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-
-
       </div>
     </>
   )
