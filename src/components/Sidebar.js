@@ -1,6 +1,6 @@
-import { Routes, Route, Navigate, Link } from 'react-router-dom'
-import Home from './Home'
-import Contact from './Contact'
+import { Link } from 'react-router-dom'
+// import Home from './Home'
+// import Contact from './Contact'
 import ContentContainer from "./ContentContainer"
 function Sidebar() {
 
@@ -25,10 +25,10 @@ function Sidebar() {
                   <i className="fs-4 bi-speedometer2"></i> <span className="ms-1 d-none d-sm-inline">Portfolio</span> </a>
                 <ul className="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                   <li className="w-100">
-                    <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline">Project</span> 1 </a>
+                    <a href="#dumm" className="nav-link px-0"> <span className="d-none d-sm-inline">Project</span> 1 </a>
                   </li>
                   <li>
-                    <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline">Project</span> 2 </a>
+                    <a href="#dumm2" className="nav-link px-0"> <span className="d-none d-sm-inline">Project</span> 2 </a>
                   </li>
                 </ul>
               </li>
