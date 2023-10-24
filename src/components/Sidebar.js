@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 // import Home from './Home'
 // import Contact from './Contact'
+// import headshotIcon from '../../public/headshot-ico-small.jpg'
 import ContentContainer from "./ContentContainer"
 function Sidebar() {
 
@@ -48,7 +49,7 @@ function Sidebar() {
             <hr></hr>
             <div className="pb-4">
               <Link to={"/contact"} className="d-flex align-items-center text-white text-decoration-none" aria-expanded="false" id="User1" >
-                <img src="https://media.licdn.com/dms/image/C4E35AQFcE_PnCoPaUQ/profile-framedphoto-shrink_100_100/0/1601911718102?e=1697828400&v=beta&t=PgJQ_4ME4Ep_oENbNhG-NWec6GC4HEo3mWPER2wjjVQ" alt="" width="40" height="40" className="rounded-circle" />
+                <img src="https://portfolio-public-resources.s3.amazonaws.com/square-profile.JPG" alt="profile" width="40" height="40" className="rounded-circle" />
                 <span className="d-none d-sm-inline mx-1">Ryan Horowitz</span>
               </Link>
             </div>

@@ -5,7 +5,7 @@ function ContentContainer() {
 
   return (
     <>
-      <div className="col p-5 bg-secondary bg-gradient">
+      <div className="col p-5 ">
         <Routes>
           <Route path="" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
